@@ -1,0 +1,28 @@
+body{
+  background-color: lightgray;
+  font-family: fantasy, sans-serif;
+  margin:  15px;
+}
+
+button{
+  background-color: black;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 200px;
+  color: whitesmoke;
+  margin: 12px;
+  padding: 10px 10px;
+  font-size: 20px;
+    box-shadow: 0 6px 8px black;
+}
+
+button:hover{
+  border-color: black;
+  background-color: whitesmoke;
+  color: black;
+}
+
+table{
+  border-color: whitesmoke;
+  color: whitesmoke;
+}
