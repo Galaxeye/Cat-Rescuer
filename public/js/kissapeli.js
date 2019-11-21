@@ -32,6 +32,7 @@ function startGame()
   health = 3;
   kissalista =[];
   clearTimeout(kissahautomoTimer);
+  loop()
   kissahautomo();
 }
 
@@ -126,6 +127,7 @@ pop();
     textAlign(CENTER);
     textSize(60);
     text("GAME OVER", windowWidth / 2, windowWidth /2 /3);
-
     pop();
+    clearTimeout(kissahautomoTimer);
+
   }
